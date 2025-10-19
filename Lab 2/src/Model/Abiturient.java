@@ -35,27 +35,11 @@ public class Abiturient {
         this.averageScore = averageScore;
     }
 
-    // Методи доступу (get/set)
-    public int getId() { return id; }
-    public void setId(int id) { this.id = id; }
-
-    public String getLastName() { return lastName; }
-    public void setLastName(String lastName) { this.lastName = lastName; }
+    /** Методи доступу (get)*/
 
     public String getFirstName() { return firstName; }
-    public void setFirstName(String firstName) { this.firstName = firstName; }
-
-    public String getMiddleName() { return middleName; }
-    public void setMiddleName(String middleName) { this.middleName = middleName; }
-
-    public String getAddress() { return address; }
-    public void setAddress(String address) { this.address = address; }
-
-    public String getPhone() { return phone; }
-    public void setPhone(String phone) { this.phone = phone; }
 
     public double getAverageScore() { return averageScore; }
-    public void setAverageScore(double averageScore) { this.averageScore = averageScore; }
 
     /**
      Перетворює дані абітурієнта у рядок.
